@@ -1,0 +1,9 @@
+.obj-fit-cover {
+    object-fit: cover;
+}
+
+.project-desc {
+    position: absolute;
+    right: 0;
+    color:#f1bda5;
+}

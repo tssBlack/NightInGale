@@ -1,0 +1,90 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Steradian-Medium";
+}
+
+header {
+  height: 60px;
+  font-family: Steradian-Medium;
+}
+
+.h-obj {
+  height: calc(100vh - 60px);
+}
+
+/* Libre */
+.ff-Libre-Bold {
+  font-family: "LibreBaskerville-Bold";
+}
+.ff-Libre-Regular {
+  font-family: "LibreBaskerville-Regular";
+}
+.ff-Libre-Italic {
+  font-family: "LibreBaskerville-Italic";
+}
+/* OldStandart */
+.ff-OldStandart-Bold {
+  font-family: "OldStandart-Bold";
+}
+.ff-OldStandart-Regular {
+  font-family: "OldStandart-Regular";
+}
+.ff-OldStandart-Italic {
+  font-family: "OldStandart-Italic";
+}
+/* SequalSans */
+.ff-SequalSans-Medium {
+  font-family: "SequalSans-Medium";
+}
+/* Steradian */
+.ff-Steradian-Medium {
+  font-family: "Steradian-Medium";
+}
+
+/* LibreBaskerville */
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url("./fonts/LibreBaskerville/LibreBaskerville-Bold.ttf");
+}
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  src: url("./fonts/LibreBaskerville/LibreBaskerville-Regular.ttf");
+}
+@font-face {
+  font-family: "LibreBaskerville-Italic";
+  src: url("./fonts/LibreBaskerville/LibreBaskerville-Italic.ttf");
+}
+
+/* OldStandart */
+@font-face {
+  font-family: "OldStandart-Bold";
+  src: url("./fonts/OldStandart/OldStandardTT-Bold.ttf");
+}
+@font-face {
+  font-family: "OldStandart-Italic";
+  src: url("./fonts/OldStandart/OldStandardTT-Italic.ttf");
+}
+@font-face {
+  font-family: "OldStandart-Regular";
+  src: url("./fonts/OldStandart/OldStandardTT-Regular.ttf");
+}
+
+/* SequalSans */
+@font-face {
+  font-family: "SequalSans-Medium";
+  src: url("./fonts/SequalSans/Sequel\ Sans\ Medium\ Body.ttf");
+}
+
+/* Steradian */
+@font-face {
+  font-family: "Steradian-Medium";
+  src: url("./fonts/Steradian/SteradianTRIAL-XLt.otf");
+}
